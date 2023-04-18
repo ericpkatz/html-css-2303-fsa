@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Shapes</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: cornSilk;
+  height: 100vh;
+  align-content: space-between;
+}
+main > div {
+  border: solid 1px black;
+  height: 3rem;
+  background-color: olive;
+  width: calc(100% / 3 - 2rem);
+  margin: 1rem;
+}
+
+.tall {
+  height: 5rem;
+}
+
+.short {
+  height: 2rem;
+}
+</style>
+  </head>
+  <body>
+    <main>
+      <div class='tall'></div>
+      <div></div>
+      <div></div>
+      <div class='short'></div>
+      <div></div>
+      <div class='tall'></div>
+      <div></div>
+      <div class='short'></div>
+      <div></div>
+      <div class='tall'></div>
+    </main>
+  </body>
+</html>
